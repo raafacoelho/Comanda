@@ -1,6 +1,6 @@
 {
   "projects": {
-    "dev": "streamer-rpg-tracker-dev",
-    "default": "streamer-rpg-tracker-dev"
+    "dev": "cardapioweb,
+    "default": "cardapioweb"
   }
 }
