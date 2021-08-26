@@ -14,7 +14,7 @@ const App = () => {
         <Counter />
 
         <p>
-          Edit <code>src/App.tsx</code> and save to reload teste.
+          Edit <code>src/App.tsx</code> and save to reload teste rafaella.
         </p>
         <span>
           <span>Learn </span>
