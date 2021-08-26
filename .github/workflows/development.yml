@@ -5,7 +5,7 @@ name: Firebase CI - Development
 
 on:
   push:
-    branches: [ develop ]
+    branches: [develop]
 
 jobs:
   build:
@@ -32,7 +32,7 @@ jobs:
         with:
           name: build
           path: build
-    
+
   deploy:
     name: Deploy to production
     needs: build
@@ -47,6 +47,6 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting --project dev
+          args: deploy --only hosting --project cardapio-dev
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

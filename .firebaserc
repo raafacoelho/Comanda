@@ -1,6 +1,6 @@
 {
   "projects": {
-    "dev": "cardapioweb,
-    "default": "cardapioweb"
-  }
+    "cardapio-dev": "cardapioweb-5f471"
+  },
+  "targets": {}
 }
